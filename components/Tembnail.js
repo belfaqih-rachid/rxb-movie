@@ -6,7 +6,7 @@ function Tembnail({ result }){
   console.log(result.backdrop_path);
   return (
     <div
-      ref={ref}
+     
       className="p-2 group cursor-pointer transition ease-in-out duration-500 transform sm:hover:scale-105 hover:z-50"
     >
       <Image

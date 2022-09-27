@@ -4,7 +4,7 @@ function TembnailCarousel({ result }){
   const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
   return (
-    <div ref={ref} className="cursor-pointer hover:z-50">
+    <div className="cursor-pointer hover:z-50">
       <div className="h-30 w-80 px-1">
         <Image
           className="object-contain rounded-md"
