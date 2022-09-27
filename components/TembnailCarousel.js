@@ -1,8 +1,6 @@
-import { ThumbUpIcon } from "@heroicons/react/outline";
 import Image from "next/image";
-import { forwardRef } from "react";
 
-const TembnailCarousel = forwardRef(({ result }, ref) => {
+function TembnailCarousel({ result }){
   const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
   return (
@@ -29,6 +27,6 @@ const TembnailCarousel = forwardRef(({ result }, ref) => {
       </div>
     </div>
   );
-});
+};
 
 export default TembnailCarousel;

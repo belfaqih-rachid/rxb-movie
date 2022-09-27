@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Carousel from "../components/Carousel";
 import CarouselBottom from "../components/CarouselBottom";
 import Header from "../components/Header";

@@ -1,5 +1,3 @@
-import Image from "next/image";
-import amazon from "../assets/amazon_PNG25.png";
 import HeaderItem from "./HeaderItem";
 import {
   HomeIcon,
