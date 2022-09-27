@@ -1,0 +1,17 @@
+.makescroll{
+    animation:scroll 60s linear infinite;
+  }
+
+  .makescroll2{
+    animation:scroll 40s linear infinite;
+    margin-top: -48px;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 9));
+    }
+  }
